@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.counter h1 {
+  font-size: 3em;
+  color: mediumseagreen;
+  margin-bottom: 10px;
+}
+
+.counter button {
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 2px solid mediumseagreen;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+
+.counter button:hover {
+  background-color: transparent;
+  color: mediumseagreen;
+}
+
+.posts {
+  text-align: left;
+  padding: 20px;
+  background-color: whitesmoke;
+  margin: 20px 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.posts h2 {
+  color: mediumseagreen;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.posts:hover {
+  background-color: #282c34;
+  color: white;
+}
